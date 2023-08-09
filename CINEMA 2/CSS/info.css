@@ -1,0 +1,67 @@
+body {
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background: linear-gradient(to bottom, #000000, #ffffff);
+}
+
+h1 {
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    font-family: system-ui;
+}
+
+h2{
+    padding-top: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+
+.input-box {
+    margin: 0 auto;
+    text-align: center;
+    color: #770000;
+    width: 15%;
+    padding-top: 40px;
+    border-radius: 1ch;
+    padding-bottom: 20px;
+}
+
+.input-box:hover {
+    background-color: #ffffff;
+    color: rgb(70, 64, 64);
+}
+
+.input-box button a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    
+   
+}
+
+.input-box  a {
+    color: rgb(255, 0, 0);
+    padding-bottom: 20px;
+    font-weight: bold;
+  
+}
+
+footer{
+    padding-top: 50px;
+  
+    width: 100%;
+    color: rgb(14, 13, 13);
+    height: 200px;
+    padding-top: 500px;
+  }

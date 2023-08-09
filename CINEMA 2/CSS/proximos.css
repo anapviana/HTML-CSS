@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  body {
+    background: linear-gradient(to bottom, #000000, #ffffff);
+    font-family: 'Rubik', sans-serif;
+  }
+
+  h1{
+    padding-top: 40px;
+    text-align: center;
+    color: #ffffff;
+    font: 'Fantasy';
+  }
+  
+
+
+
+  .movie {
+    padding-top: 30px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+  
+  }
+
+  .movie img {
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  
+ 
+  }
+
